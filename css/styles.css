@@ -1,0 +1,225 @@
+:root {
+    --active-color: #404BBF;
+    --title-color: #2E2F42;
+    --simple-color: #4D5AE5;
+    --text-color: #434455;
+    --whitty-color: #FFFFFF;
+    --darwhit-color: #F4F4FD;
+    }
+body 
+{
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    background-color: var(--whitty-color);
+}
+.link {
+        text-decoration: none;
+    }
+.ul {text-decoration: none;}
+.list {
+        list-style: none;
+    }
+.title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+    }
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+         }
+/* HEADER */
+
+.logo {
+    font-family: 'Raleway',sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--simple-color)
+}
+
+.logo-part {
+color: var(--title-color);
+}
+.link-nav {
+    font-weight: 500;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+.link-nav:active,
+.link-nav:hover,
+.link-nav:focus {
+     color: var(--active-color);
+}
+.adrs {
+    font-style: normal
+    }
+
+.link-adrs {
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color)
+}
+.link-adrs:active,
+.link-adrs:hover,
+.link-adrs:focus {
+    color: var(--active-color);
+}
+
+/*!------------------ HERO ---------------------------*/
+.hero {
+    background-color: var(--title-color);
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    Color: var(--whitty-color);
+}
+
+.hero-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: var(--whitty-color);
+    background-color: var(--simple-color);
+}
+.hero-btn:focus,
+.hero-btn:hover {
+    background-color: var(--active-color);
+}
+
+/*!------------------our advantages---------------------  */
+.adv {}
+
+.adv-title {}
+
+.adv-list {}
+
+.adv-item {}
+
+.adv-item-title {}
+
+
+.adv-item-text {}
+
+/*!------------------What are we doing---------------------  */
+.wawd {}
+
+.wawd-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-color);
+}
+
+.wawd-list {}
+
+.waws-item {}
+
+/*!------------------Our Team-------------------------------  */
+ .team {
+    background-color: var(--darwhit-color);
+ }
+
+ .team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+ }
+
+ .team-list {}
+
+ .team-item {
+    background-color: var(--whitty-color)
+ }
+
+ .team-item-img {}
+
+ .team-item-title {}
+
+ .team-item-text {}
+
+
+
+
+ /*!------------------FOOTER-------------------------------  */
+
+ .footer {
+    background-color: #2E2F42;
+}
+.footer-text {
+    color: var(--darwhit-color);
+letter-spacing: 0.02em;
+}
+    .foot-logo-part {
+      color: var(--darwhit-color);
+    }
+
+
+        /*!------------------FILTER-------------------------------  */
+.filter {}
+        
+.filter-title {}
+        
+.filter-list {}
+        
+.filter-list-item {}
+        
+.filter-item-btn {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--simple-color);
+    background: #F4F4FD;
+    cursor: pointer;
+}
+.filter-item-btn:hover,
+.filter-item-btn:focus,
+.filter-item-btn:active {
+    color: var(--whitty-color);
+    background: var(--active-color);
+}
+.filter-card-list {}
+
+.card-item-link:hover,
+.card-item-link:focus {
+    color: var(--active-color);
+}
+
+.card-item {}
+
+.card-item-link {}
+
+
+.card-item-img {}
+
+.card-item-title {}
+
+.card-item-text {}
+
