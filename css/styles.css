@@ -306,8 +306,8 @@ padding-bottom: 188px;
     padding-bottom: 100px;
     }
 .div-foot {
-    display: inline-block;
-    max-width: 264px;
+
+    
     
 }
 .foot {
@@ -316,9 +316,7 @@ padding-bottom: 188px;
 }
 .footer-text {
     color: var(--darwhit-color);
-letter-spacing: 0.02em;
-
-
+     max-width: 264px;
 }
     .foot-logo-part {
       color: var(--darwhit-color);
