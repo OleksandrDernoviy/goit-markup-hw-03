@@ -69,7 +69,9 @@ img {
 /*!------------------ HEADER ---------------------------*/
 .header {
     background-color: var(--whitty-color);
+    border-bottom: 1px solid #e7e9fc
 }
+
     
 .header-menu {
     display: flex;
@@ -83,7 +85,6 @@ img {
     }
 .div-header {
 display: flex;
-border-bottom: 1px solid #E7E9FC;
 }
 .header-nav {
     display: flex;
@@ -176,6 +177,9 @@ padding-bottom: 188px;
     padding: 16px 32px;
     margin: 0 auto;
     border-radius: 4px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
     
 }   
 .hero-btn:focus,
@@ -233,12 +237,13 @@ padding-bottom: 188px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--title-color);
+    margin-bottom: 72px;
 }
 
 .wawd-list {
     display: flex;
     gap: 24px;
-    margin-top: 72px;
+    
 }
 
 .wawd-item {
@@ -261,12 +266,12 @@ padding-bottom: 188px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
+    margin-bottom: 72px;
     
  }
 
  .team-list {
     display: flex;
-    margin-top: 72px;
     gap: 24px;
 
  }
@@ -280,11 +285,12 @@ padding-bottom: 188px;
 
  .team-item-img {}
 
- .team-item-title {}
+ .team-item-title {
+    margin-bottom: 8px;
+ }
 
  .team-item-text {
     text-align: center;
-    margin-top: 8px;
     }
 
 .div-team-name {
@@ -296,7 +302,7 @@ padding-bottom: 188px;
 
  .footer {
     background-color: #2E2F42;
-    padding-top: 101.5px;
+    padding-top: 100px;
     padding-bottom: 100px;
     }
 .div-foot {
@@ -304,11 +310,14 @@ padding-bottom: 188px;
     max-width: 264px;
     
 }
-
+.foot {
+    display: inline-block;
+    margin-bottom: 16px;
+}
 .footer-text {
     color: var(--darwhit-color);
 letter-spacing: 0.02em;
-margin-top: 17.5px;
+
 
 }
     .foot-logo-part {
@@ -367,6 +376,7 @@ margin-top: 17.5px;
 .filter-item-btn:active {
     color: var(--whitty-color);
     background: var(--active-color);
+    border: 1px solid transparent;
 }
 .filter-card-list {
     display: flex;
@@ -394,18 +404,15 @@ margin-top: 17.5px;
 
 .card-bottom {
     padding: 32px 16px;
-    border-right: 1px solid #E7E9FC;
-    border-bottom: 1px solid #E7E9FC;
-    border-left: 1px solid #E7E9FC;
+    border: 1px solid #e7e9fc;
     border-top: none;
 
 }
 .card-item-img {}
 
 .card-item-title {
-    letter-spacing: 0.02em;
-    text-align:left ;
-    margin-bottom: 8px;
+text-align:left ;
+margin-bottom: 8px;
     
 }
 
